@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&family=Texturina:wght@200&display=swap');
+*{
+    margin-left: 7px;
+    box-sizing: border-box;
+    padding: 0;
+    
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background: center/cover no-repeat url("/Digi_clock/images/timebg.jpg") ;
+    
+    z-index: -1;
+}
+
+.time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 45vh;
+    width: 100%;
+    font-size: 7rem;
+    font-family: 'Texturina', serif;
+    font-weight: bolder;
+    color: rgb(44, 240, 44);
+}
+
+.date{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 45vh;
+    width: 100%;
+    font-size: 6rem;
+    color: rgb(44, 240, 44);
+    font-weight: bolder;
+    font-family: 'Texturina', serif;
+    
+}
+
+.heading{
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Reggae One', cursive;
+    background: black;
+    color: white;
+}
